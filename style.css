@@ -1,0 +1,192 @@
+#avatar {
+    margin-top: 49px;
+}
+
+.blue {
+    color: #5E17EB;
+}
+
+#inicio {
+    max-width: 800px;
+    margin-top: 60px;
+    height: 70vh;
+
+}
+
+#subtitulo {
+    margin: 30px;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quemsou {
+    height: 100vh;
+    background-color: #5E17EB;
+    width: 100%;
+    padding: 50px;
+
+
+
+}
+
+.quemsoutext {
+    color: white;
+    letter-spacing: 3px;
+}
+
+#tituloq {
+    padding: 40px;
+}
+
+#quemsoup {
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+.pw {
+    width: 900px;
+}
+
+.cardsp {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+
+    margin-bottom: 30px;
+
+
+
+}
+
+.cardsp:hover {
+    transform: scale(1.1);
+}
+
+#habilidades {
+    display: flex;
+    padding: 180px;
+
+}
+
+.texto-habilidades,
+.cards-habilidade {
+    width: 50%;
+}
+
+.cards-habilidade {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    width: 100%;
+}
+
+.img-card {
+    width: 190px;
+    height: 190px;
+}
+
+#p {
+    font-size: 30px;
+}
+
+
+.habilidade {
+    font-size: 39px;
+    color: white;
+
+}
+
+
+#projetos {
+    height: 100vh;
+}
+
+#titulop {
+    margin-top: 50px;
+    font-size: 50px;
+
+}
+
+#cardsprojetos{
+    display: flex;
+    
+    width: 1400px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+card-img-top{
+    height: 100px;
+}
+
+.altura-img{
+
+    height: 200px;
+}
+
+.img-cafe{
+    background-image: url("./img/cafe\ delicia.png");
+    background-size: cover;
+}
+
+.img-obj{
+    background-image: url("./img/detector\ obj.png");
+    background-size: cover;
+}
+
+.img-tecp{
+    background-image: url("./img/tecp.png");
+    background-size: cover;
+}
+
+.img-selfie{
+    background-image: url("./img/selfie\ por\ voz.png");
+    background-size: cover;
+}
+
+.img-bigode{
+    background-image: url("./img/filtro\ big.png");
+    background-size: cover;
+}
+
+
+.icones-contato img{
+    width: 75px; height: 75px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#contato{
+    
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    box-shadow: #5E17EB 0px 5px 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.icones-contato{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
