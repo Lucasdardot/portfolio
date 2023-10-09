@@ -190,3 +190,55 @@ card-img-top{
     display: flex;
     justify-content: space-between;
 }
+
+/*  mobile */
+
+@media screen and (max-width:500px) {
+
+    li {
+        padding-left: 7px;
+    }
+
+    #avatar{
+        width: 390px;
+    }
+
+    #quemsou{
+        height: 100%;
+    }
+    
+    .cards-habilidade{
+        justify-content: center;
+        width: 390px;
+        
+    }
+
+    #habilidades{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-habilidades{
+
+        padding: 0px;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    #projetos{
+        height: 100%;
+
+    }
+    
+    #cardsprojetos{
+        display: block;
+
+    }
+
+
+    .card{
+        margin-bottom: 30px;
+    }
+}
