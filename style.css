@@ -209,7 +209,7 @@ card-img-top{
     
     .cards-habilidade{
         justify-content: center;
-        width: 390px;
+        width: 100%;
         
     }
 
@@ -234,11 +234,16 @@ card-img-top{
     
     #cardsprojetos{
         display: block;
+        width: 100%;
 
     }
 
 
     .card{
         margin-bottom: 30px;
+    }
+
+    .pw{
+        width: 100%;
     }
 }
