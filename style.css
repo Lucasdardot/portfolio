@@ -9,7 +9,7 @@
 #inicio {
     max-width: 800px;
     margin-top: 60px;
-    height: 70vh;
+    height: 100%;
 
 }
 
@@ -110,10 +110,6 @@ p {
 }
 
 
-#projetos {
-    height: 100vh;
-}
-
 #titulop {
     margin-top: 50px;
     font-size: 50px;
@@ -122,9 +118,9 @@ p {
 
 #cardsprojetos{
     display: flex;
-    
-    width: 1400px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1400px;
     margin-top: 50px;
 }
 
@@ -143,7 +139,7 @@ card-img-top{
 }
 
 .img-obj{
-    background-image: url("./img/detector\ obj.png");
+    background-image: url("./img/login.png");
     background-size: cover;
 }
 
@@ -191,6 +187,10 @@ card-img-top{
     justify-content: space-between;
 }
 
+#projetos{
+    margin-bottom: 50px;
+}
+
 /*  mobile */
 
 @media screen and (max-width:500px) {
@@ -217,7 +217,7 @@ card-img-top{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 10px:
+        padding: 10px;
     }
 
     .texto-habilidades{
@@ -230,6 +230,7 @@ card-img-top{
 
     #projetos{
         height: 100%;
+        
 
     }
     

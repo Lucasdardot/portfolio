@@ -4,6 +4,7 @@ const cardsdescricao = {
     'js':'JavaScript (JS) é uma linguagem de programação amplamente utilizada para desenvolvimento web. É uma linguagem de script do lado do cliente, o que significa que é executada no navegador da web do usuário',
     'bootstrap':'O Bootstrap é um popular framework de front-end de código aberto desenvolvido pelo Twitter. Ele fornece um conjunto de estilos predefinidos, componentes e scripts JavaScript para simplificar o processo de criação de interfaces web responsivas e atraentes',
     'firebase':' Realtime Database e Authentication. O Firebase é uma plataforma de desenvolvimento de aplicativos móveis e web baseada na nuvem, adquirida pela Google. Ele oferece uma ampla gama de serviços e recursos para simplificar o desenvolvimento, o crescimento e a manutenção de aplicativos',
+    "react":"React JS é uma biblioteca de JavaScript que permite a criação de interfaces de usuário (UI) para aplicativos web e dispositivos móveis"
     // criando variavel do tipo objeto
 }
 
